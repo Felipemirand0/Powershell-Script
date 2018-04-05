@@ -4,7 +4,7 @@ $path= "C:\"
  
 #Export List  
 
-search-adaccount -usersonly -accountinactive -timespan "90" | Where-Object {$_.lastlogondate -cgt 0} | select name, LastLogonDate, enabled | Out-File $path\Accountsdisabled $date .txt 
+search-adaccount -usersonly -accountinactive -timespan "90" | select name, LastLogonDate, enabled | Out-File $path\Accountsdisabled $date .txt 
   
 #Disable accounts on AD   
  
