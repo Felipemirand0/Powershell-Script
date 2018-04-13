@@ -1,9 +1,4 @@
-﻿#Bubble Sort IBTA
-
-write-host "Escreva 15 numeros"
-write-host "Escreva a posição 1:" 
-
-for ($i = 0 ; $i -lt 3; $i++){write-host "Escreava a posição $i"; $dados += read-host}
+﻿#Bubble Sort powershell
  
 [bool]$sorted = $false 
 $counter = 0 
@@ -23,5 +18,3 @@ for ($a = 1; ($a -lt $dados.Count) -and -not $sorted; $a++)
         } 
     } 
 } 
- 
- write-host "Seus numeros são",([array]$dados)
