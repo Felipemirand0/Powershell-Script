@@ -1,6 +1,6 @@
 ﻿#Calculo de IMC 
 
-Write-host "Escreva a seguir o nome, o peso e altura de 3 pessoas" -ForegroundColor black
+Write-host "Escreva a seguir o nome, o peso e altura de 3 pessoas" -ForegroundColor Red
 
 Pause
 
